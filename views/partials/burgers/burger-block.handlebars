@@ -1,0 +1,8 @@
+<li>
+	{{this.burger_name}}
+	{{#unless this.devoured}}
+	<button class="change-sleep" data-id="{{this.id}}" data-newsleep="{{this.devoured}}">
+		DEVOUR IT!
+	</button>
+	{{/unless}}
+</li>
